@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Bootstrap</title>
+
+    <!-- Bootstrap -->
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+          integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <script src="lib/p5.js"></script>
+    <script src="lib/p5.dom.js"></script>
+    <script src="lib/p5.sound.js"></script>
+
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/p5.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/addons/p5.dom.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/addons/p5.sound.js"></script> -->
+
+
+    <script src="Utils.js"></script>
+    <script src="MainFunctions.js"></script>
+    <script src="MediaRecorder.js"></script>
+    <script src="sketch.js"></script>
+    <!-- <script src="sketchContour.js"></script> -->
+ <style>
+ 
+ body {background-color:rgba(144, 111, 111, 0.6);}
+ 
+#button-record{ border-radius: 50px;
+    height: 86px;}
+ select{margin-top: 2%}
+ 
+ </style>
+
+</head>
+
+<body>
+
+
+  
+  
+<button id="button-showhide" class="btn btn-danger">Show/Hide</button>
+<center>
+<button id="button-record" class= "btn btn-outline-danger">RECORD</button>
+
+<select class="btn btn-secondary" id="select-image-front"></select>
+
+<select class="btn btn-secondary" id="select-image-back"></select>
+<select class="btn btn-secondary" id="select-option"></select>
+
+<div id="main-canvas"></div>
+
+<div>
+    <input type="range" class="btn btn-secondary" id="range-spectre" min="0" max="255" value="100">
+    <input type="range" class="btn btn-secondary" id="range-density" min="0" max="100" value="0">
+</div>
+</center>
+</body>
+
+</html>
