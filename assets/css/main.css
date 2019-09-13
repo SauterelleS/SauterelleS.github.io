@@ -3260,13 +3260,13 @@ button:disabled,
 @media(min-width:400px) {
 	#video01 {
 		position: initial;
-		height: 490px;
-		width: 490px;
+		height: 400px;
+		width: 400px;
 	}
 	#video02 {
 		position: relative;
-		height: 420px;
-		width: 460px;
+		height: 400px;
+		width: 450px;
 	}
 
 }
